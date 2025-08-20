@@ -1,0 +1,23 @@
+# Tasks
+
+- [ ] Destacar borda dos inputs com cor escura da paleta do app.
+- [ ] Melhorar a calculadora de surebet e criar a lógica de cálculo.
+- [ ] Adicionar uma aba de configurações ao app.
+- [ ] **Divisão de Freebets:**
+    - [ ] Separar as freebets em três seções: "Ativas", "Expiradas" e "Extraídas".
+    - [ ] Utilizar duas linhas verticais para dividir visualmente as três seções na mesma área da interface.
+- [ ] **Exibição de Lucro no Back Win:**
+    - [ ] Modificar a exibição do "back win" para mostrar apenas o lucro final, não o valor total ganho.
+- [ ] **Card de Lucro Total e Fluxo de Extração de Freebet:**
+    - [ ] Adicionar um novo card no topo da aplicação, ao lado dos cards existentes, para exibir o lucro total (valor final pós-cálculo).
+    - [ ] **Popup de Extração:**
+        - [ ] Ao marcar uma freebet ativa como "utilizada", exibir um popup de tamanho médio.
+        - [ ] O popup deve conter um campo para o usuário inserir o "valor extraído" da freebet.
+        - [ ] **Botão "Adicionar Lucro":**
+            - [ ] Se o usuário preencher o valor e não usar a calculadora, o botão "Adicionar Lucro" deve ficar visível para submissão manual.
+        - [ ] **Botão "Calcular Agora":**
+            - [ ] O popup deve ter um botão "Calcular Agora" que redireciona o usuário para a calculadora de freebet.
+    - [ ] **Fluxo Pós-Cálculo:**
+        - [ ] Após o cálculo na calculadora de freebet, um botão "Contabilizar Lucro Automaticamente" deve aparecer.
+        - [ ] Ao clicar neste botão, a freebet deve ser movida da seção "Ativas" para a "Extraídas".
+        - [ ] O lucro calculado deve ser automaticamente somado e atualizado no novo card de lucro total.
